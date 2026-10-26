@@ -1,6 +1,6 @@
 +++
 title = "Rebuilding the Network at GoodGames Bern"
-description  = "A new UniFi network for GoodGames Bern: segmented, remotely managed, and monitored externally."
+description = "A new UniFi network for GoodGames Bern: segmented, remotely managed, and monitored externally."
 
 date = 2026-10-26
 +++
