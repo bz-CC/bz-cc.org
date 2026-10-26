@@ -14,7 +14,7 @@ subtitle = "All about Computers"
 
 ## Who we are
 
-The bz Computer Club (bz-CC) is a non-profit association based in Fribourg, Switzerland. We help people and organizations get the most out of technology, offering IT services, training, and practical know-how for the benefit of the community.
+The **bz Computer Club** <sup>(bz-CC)</sup> is a non-profit association based in Fribourg, Switzerland. We help people and organizations get the most out of technology, offering IT services, training, and practical know-how for the benefit of the community.
 
 ## What we do
 
