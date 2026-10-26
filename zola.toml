@@ -1,0 +1,40 @@
+base_url = "https://bz-cc.org"
+
+title = "bz Computer Club"
+
+theme = "colorized"
+
+compile_sass = true
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+github_alerts = true
+
+[markdown.highlighting]
+theme = "minimal-smoke"
+extra_themes = ["extras/minimal-theme.json"]
+
+[extra]
+landing_chars = [
+  { char = "bz ", class = "c-muted" },
+  { char = "Computer Club", class = "shimmer" },
+]
+
+landing_subtitle = "bz-CC association"
+copyright_holder = "bz-CC"
+copyright_url = "https://bz-cc.org"
+
+nav_links = [
+  { name = "about us", path = "/about", sitemap = true },
+  { name = "projects", path = "/projects", sitemap = true },
+  { name = "contact", path = "/contact", sitemap = true },
+]
+
+footer_links = [
+  { name = "GitHub", path = "https://github.com/bz-CC" },
+  { name = "Useful links", path = "/links" },
+]

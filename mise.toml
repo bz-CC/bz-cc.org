@@ -1,0 +1,8 @@
+[settings]
+task.run_auto_install = false
+
+[env]
+_.file = ".env"
+
+[tools]
+zola = "0.23.4"
