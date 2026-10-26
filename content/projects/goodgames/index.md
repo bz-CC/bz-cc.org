@@ -5,6 +5,9 @@ description  = "A new UniFi network for GoodGames Bern: segmented, remotely mana
 date = 2026-10-26
 +++
 
+> [!NOTE]
+> The website of GoodGames Bern: <span class="demo-icon" style="-webkit-mask-image:var(--icon-link); mask-image:var(--icon-link);"></span> [goodgames.gg](https://goodgames.gg/)
+
 ## Intro
 
 When [GoodGames Bern](https://goodgames.gg/) moved to a new location, the network couldn't come along. At the old location, the venue ran on the network infrastructure of the [Erupt lounge](https://erupt.ch/en). With the move, GoodGames needed a network of its own, so our association designed and rolled one out from scratch. The goal was a setup that is reliable for staff, welcoming for guests, and easy to operate without being on site.
@@ -18,6 +21,8 @@ The choice of UniFi was made by the owner before we got involved, with simplicit
 The physical layer was installed in-house by the GoodGames team, with our guidance and support. The building is wired with Cat6A, which provides headroom for 10 Gbit/s over the full channel length and keeps the cabling viable well beyond the current hardware generation. Horizontal runs are terminated on a patch panel in the rack. A clean, documented patch field keeps the connection between the cabling and the switches easy to trace and maintain.
 
 ## A clean two-tier design
+
+{{ <image url="network_zones.svg" position="right" alt="Diagram of the network zones" content_path={page.path} /> }}
 
 The network follows a two-tier design: a core and an access layer. The edge gateway and the core switch sit together in the rack and form the core. Leaf switches spread throughout the building act as the access layer, connecting the access points and wired devices in each area. Each leaf uplinks directly to the core, giving a simple star topology.
 
