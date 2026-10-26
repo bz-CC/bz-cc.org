@@ -24,7 +24,9 @@ landing_chars = [
   { char = "Computer Club", class = "shimmer" },
 ]
 
+site_title = "bz-CC"
 landing_subtitle = "bz-CC association"
+
 copyright_holder = "bz-CC"
 copyright_url = "https://bz-cc.org"
 
