@@ -3,8 +3,14 @@ title = "bz Computer Club (bz-CC)"
 template = "about.html"
 
 [extra]
-subtitle = "All about IT"
+subtitle = "All about Computers"
 +++
+
+<p align="center">
+    <img src="/logo.svg" alt="logo" width="50%">
+</p>
+
+---
 
 ## Who we are
 
