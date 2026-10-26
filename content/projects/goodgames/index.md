@@ -22,8 +22,6 @@ The physical layer was installed in-house by the GoodGames team, with our guidan
 
 ## A clean two-tier design
 
-{{ <image url="network_zones.svg" position="right" alt="Diagram of the network zones" content_path={page.path} /> }}
-
 The network follows a two-tier design: a core and an access layer. The edge gateway and the core switch sit together in the rack and form the core. Leaf switches spread throughout the building act as the access layer, connecting the access points and wired devices in each area. Each leaf uplinks directly to the core, giving a simple star topology.
 
 The design is deliberately straightforward. It is easy to understand, easy to troubleshoot, and easy to extend: adding a new area later just means placing another switch and uplinking it to the core, with no redesign needed.
@@ -31,6 +29,8 @@ The design is deliberately straightforward. It is easy to understand, easy to tr
 For a venue of this size, this is the right level of complexity. Redundant cores or a full spine-leaf fabric would add cost and moving parts without a real benefit here.
 
 ## Separate zones for staff and guests
+
+{{ <image url="network_zones.svg" position="right" alt="Diagram of the network zones" content_path={page.path} /> }}
 
 Not everyone on the network should have the same access. The network is split into distinct zones:
 
