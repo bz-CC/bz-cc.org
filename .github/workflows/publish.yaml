@@ -20,6 +20,12 @@ jobs:
       - name: checkout
         uses: actions/checkout@v6
 
+      - name: checkout theme
+        uses: actions/checkout@v6
+        with:
+          repository: https://git.colorized.life/demo.colorized.life.git
+          path: themes/colorized
+
       - name: Build site + upload pages artifacts
         uses: getzola/github-pages@v1
         with:
