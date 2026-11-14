@@ -6,7 +6,7 @@ date = 2026-10-26
 +++
 
 > [!NOTE]
-> The website of GoodGames Bern: <span class="demo-icon" style="-webkit-mask-image:var(--icon-link); mask-image:var(--icon-link);"></span> [goodgames.gg](https://goodgames.gg/)
+> The website of GoodGames Bern: [goodgames.gg](https://goodgames.gg/)
 
 ## Intro
 
@@ -52,6 +52,10 @@ Day-to-day management happens through the UniFi UI, remotely. As a second path, 
 ## External monitoring
 
 Monitoring runs on our own infrastructure, outside the venue's network. Syslog and metrics are collected centrally, and ping alerts notify us when something stops responding. Because monitoring lives outside the site, we are alerted even if the site itself goes down, and we can often start troubleshooting before anyone at the venue notices a problem.
+
+## VM hosting for internal applications
+
+Besides the network itself, we host virtual machines for GoodGames' internal applications. Running them as VMs means the venue does not have to buy, place, and maintain server hardware on site, and the applications stay independent of each other. Operation, updates, and support of these systems are part of our service, in the same way as for the network, so GoodGames can use its applications without having to look after the infrastructure underneath.
 
 ## Public services with dynamic DNS
 
